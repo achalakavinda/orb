@@ -250,6 +250,7 @@ a, a:focus, a:hover {
     margin-top: 20px;
     font-weight: 600;
     font-size: 250%;
+    line-height: normal;
     color: rgba(0,0,0,0.5);
 }
 

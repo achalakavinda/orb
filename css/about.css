@@ -1,0 +1,33 @@
+.inner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.team-area {
+    min-height: 100vh;
+}
+
+.team-detail-header {
+    text-align: center;
+}
+
+.team-detail-header{
+    margin-top:100px;
+}
+
+.team-detail-header > .title{
+    color: aliceblue;
+    font-size: 400%;
+}
+
+.team-detail-header > .description{
+    color: aliceblue;
+    font-size: 150%;
+    padding:50px;
+}
+
+.team-area> .hex{
+    margin-top: 0px;
+}
