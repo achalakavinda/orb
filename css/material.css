@@ -1,0 +1,74 @@
+body{
+    background: white;
+}
+
+.about-area{
+   position: relative;
+   padding-top: 180px;
+   padding-bottom: 50px;
+   padding-left: 0px;
+   overflow: hidden;
+   background-color: rgba(0,0,0,0.4)
+}
+
+.about-detail-header{
+    padding: 10px;
+}
+.about-detail-header>.title{
+    font-size: 300%;
+    line-height: normal;
+    font-weight: 600;
+    transition: all ease 1s;
+}
+
+.tabs-area{
+    padding-top: 100px;
+}
+
+.nav-tabs>li>a{
+    font-size: 140%;
+    font-weight: 800;
+}
+.tab-pane{
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    border-left: solid 1px rgba(0,0,0,0.1);
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+    color: black;
+    padding-top: 20px;
+}
+
+.tab-pane>.row{
+    margin:0px;
+}
+
+
+.card-detail-header{
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    padding-bottom: 50px;
+    border: solid 1px rgba(0,0,0,0.1);
+    min-height: 250px;
+}
+.profile{
+    min-height: 180px;
+}
+.card-detail-header>h6{
+    font-weight: 700;
+}
+.download-btn{
+    position: absolute;
+    bottom: 5px;    
+    padding: 10px 20px 10px 20px;
+    background: black;
+    color: white;
+    transition: all ease .5s;
+}
+.download-btn:hover{
+    background-color: white;
+    border: solid 1px black;
+    transition: all ease .5s;
+    color: black;
+}
