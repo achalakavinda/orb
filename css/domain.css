@@ -1,0 +1,17 @@
+.about-area{
+   padding-top: 250px;
+   padding-bottom: 150px;
+   overflow: hidden;
+   min-height: 100vh;   
+}
+
+.about-detail-header{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7)    
+}
+.about-detail-header>.title{
+     font-size: 300%;
+    line-height: normal;
+    font-weight: 600;
+    transition: all ease 1s;
+}
